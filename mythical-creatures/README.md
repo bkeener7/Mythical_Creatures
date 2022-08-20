@@ -32,8 +32,8 @@ Continue to follow the errors that your test provides until the test passes. The
 * `hobbit_spec.rb` [video walk-through](https://youtu.be/uYGS-DCNR-0)
 * `pirate_spec.rb`
 * `wizard_spec.rb`
-* `medusa_spec.rb`-->
-* `werewolf_spec.rb`
+* `medusa_spec.rb`
+* `werewolf_spec.rb`-->
 * `centaur_spec.rb`
 * `ogre_spec.rb`
 * `direwolf_spec.rb`
