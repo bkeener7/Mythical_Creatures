@@ -10,24 +10,36 @@ class Centaur
   end
 
   def shoot
-    if @cranky == true
+    if
+      @cranky == true
       "NO!"
-    elsif @tired < 2
+    elsif
+      @tired < 2
       @tired += 1
       "Twang!!!"
-    elsif @tired = 2
+    elsif
+      @tired = 2
       @tired += 1
       @cranky = true
     end
   end
 
   def run
-    if @tired < 2
+    if
+      @tired < 2
       @tired += 1
       "Clop clop clop clop!"
-    elsif @tired = 2
+    elsif
+      @tired = 2
       @tired += 1
       @cranky = true
+    end
+  end
+
+  def sleep
+    if
+      @standing == true
+      "NO!"
     end
   end
 
